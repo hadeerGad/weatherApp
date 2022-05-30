@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+
+
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a href="index.html" class="branding">
+                    <img src="imgs/logo@2x.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+
+                <div class="mobile-navigation"></div>
+
+            </div>
+        </div> <!-- .site-header -->
+        <!-- search section -->
+        <div class="hero" data-bg-image="imgs/banner.png">
+            <div class="container">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="search-bar" class="bg-light text-dark">
+                    <!-- <input type="button" value="Find" id="submit" > -->
+                </form>
+
+            </div>
+        </div>
+
+
+
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container" id="forecast">
+                    <!-- todays weather -->
+                    <div class="today forecast">
+                        <div class="forecast-header" id="">
+                            <p class="day" id="today"></p>
+                            <p class=" date" id="today-date">
+                            </p>
+                        </div>
+
+                        <div class="forecast-content" id="">
+                            <p id="location"></p>
+                            <div class="degree">
+                                <div class="num" id="today-degree">
+                                    
+                                </div><sup>o</sup>C  
+                               
+                                <div class="forecast-icon">
+                                    <img src="" alt="" width="90" id="today-icon">
+                                </div>
+                            </div>
+                            <p class="custom" id="today-description">
+                            </p>
+                            <div class="details">
+                                <i class="fas fa-umbrella pr-1"></i>
+                                <span id="humidty"></span> <span></span>
+
+                                <i class="fas fa-wind pl-3 pr-1"></i>
+                                <span id="wind"></span>
+
+                                <i class="far fa-compass pl-3 pl-1"></i>
+                                <span id="compass"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- next days cards -->
+                    <div class="today forecast">
+                        <div class="forecast-header" id="">
+                            <p class="day nextDay">tuesday</p>
+
+                        </div>
+
+                        <div class="forecast-content  text-center" id="">
+
+                            <div class="degree">
+                                <!-- <h2 class="num" id="today-degree">25
+                                    <sup>o</sup>C
+                                </h2> -->
+
+                                <div class="forecast-icon ">
+                                    <img src="" alt="" width="90" class="nextDay-icon ">
+                                </div>
+                            </div>
+                            <h2 class="max-degree d-inline-block "></h2>
+                            <p class=" d-inline-block mt-3"></p>
+                            <br>
+                            <h2 class="min-degree d-inline-block "></h2>
+                            <p class=" d-inline-block mt-3"></p>
+
+                            <p class="custom nextDay-description mt-3" >
+                            </p>
+                          
+                        </div>
+                    </div>
+
+                        <!-- next days cards -->
+                        <div class="today forecast">
+                            <div class="forecast-header" id="">
+                                <p class="day nextDay">tuesday</p>
+    
+                            </div>
+    
+                            <div class="forecast-content  text-center" id="">
+
+                                <div class="degree">
+                                    <!-- <h2 class="num" id="today-degree">25
+                                        <sup>o</sup>C
+                                    </h2> -->
+    
+                                    <div class="forecast-icon ">
+                                        <img src="" alt="" width="90" class="nextDay-icon ">
+                                    </div>
+                                </div>
+                                <h2 class="max-degree d-inline-block "></h2>
+                                <p class=" d-inline-block mt-3"></p>
+                                <br>
+                                <h2 class="min-degree d-inline-block "></h2>
+                                <p class=" d-inline-block mt-3"></p>
+    
+                                <p class="custom nextDay-description mt-3" >
+                                </p>
+                                <!-- <i class="fas fa-facebook-square"></i> -->
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fas fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer> <!-- .site-footer -->
+    </div>
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
